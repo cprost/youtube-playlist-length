@@ -1,6 +1,6 @@
 ### Youtube Playlist Length
 
-A small browser-agnostic plugin that displays the total length of a YouTube playlist. This functionality was previously included as a native feature on YouTube, but was removed. Tested and functional on FireFox 78 and Chrome 84.
+A small browser-agnostic plugin that displays the total length of a YouTube playlist. This functionality was previously included as a native feature on YouTube, but was removed. Tested and functional on Firefox 78 and Chrome 84.
 
 ![Demonstration of playlist length in video mode](/results/demo-firefox.png)
 
@@ -14,4 +14,4 @@ or [in Chrome](https://developer.chrome.com/extensions/getstarted)
 
 ### To-Do
 
-Add support for displaying lengths on `youtube.com/playlist`-type pages. This currently only supports `youtube.com/watch`
+Add support for displaying lengths on `youtube.com/playlist`-type pages. This currently only supports `youtube.com/watch` links *i.e.* video playback mode.
