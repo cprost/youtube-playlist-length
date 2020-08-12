@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Youtube Playlist Length",
+  "version": "1.0",
+
+  "description": "Restores the (removed) YouTube playlist length feature next to the current video",
+
+  "icons": {
+    "48": "icons/yt-playlist-length-logo-256.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["app.js"]
+    }
+  ]
+}

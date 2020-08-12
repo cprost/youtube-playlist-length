@@ -1,3 +1,5 @@
+// Originally developed for use with gathering MOOC information
+
 function timeToString(totalTime) {
     // converts seconds to a string in format hh:mm:ss
 
@@ -85,4 +87,7 @@ function loadTotalTime() {
     }
 }
 
+// YouTube hot-reloads the page when switching playlists, so the playlist length element may display the old playlist's
+// length instead. Additionally, not all video items are loaded at once.
+// TODO: Switch from setInterval to a DOM-scanning method for faster updates, e.g. MutationObserver() ?
 let cycler = setInterval(loadTotalTime, 5000);
